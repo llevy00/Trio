@@ -28,15 +28,15 @@ int main()
 // <-- ADD YOUR FUNCTION DEFINITON HERE
 void Rearrange(int first, int second, int third)
 {
-    if(!(first > second))
+    if(first < second)
     {
         SwitchNumbers(first, second);
     }
-    if(!(first > third))
+    if(first < third)
     {
         SwitchNumbers(first, third);
     }
-    if(!(second > third))
+    if(second < third)
     {
         SwitchNumbers(second, third);
     }
